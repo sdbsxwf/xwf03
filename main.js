@@ -1,13 +1,13 @@
 //v2.0
 auto.waitFor(); //判断是否打开无障碍。
 
-//var 内容 = http.get("https://sdbsxwf.github.io/xwf/")
-//var 内容1 = 内容.body.string();
-//var 内容2 = 内容1.slice(0, 150);
-//if (内容2.search("hello") == -1) {
-//    toastLog("系统已升级,请联系作者!QQ:541989489");
-//   exit();
-//}
+var 内容 = http.get("https://sdbsxwf.github.io/xwf/")
+var 内容1 = 内容.body.string();
+var 内容2 = 内容1.slice(0, 150);
+if (内容2.search("爱学习2.0") == -1) {
+   toastLog("系统已升级,请联系作者!QQ:541989489");
+   exit();
+}
 
 
 
