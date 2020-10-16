@@ -1,7 +1,7 @@
 //爱强国v2.0(2020-10-15)
 auto.waitFor(); //判断是否打开无障碍。
 
-toastLog("---爱强国v2.2---")
+toastLog("---爱强国v2.3---")
 var 内容 = http.get("https://sdbsxwf.github.io/xwf/")
 var 内容1 = 内容.body.string();
 var 内容2 = 内容1.slice(0, 150);
