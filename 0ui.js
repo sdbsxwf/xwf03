@@ -314,7 +314,7 @@ function sjk() {
         var ids = device.getAndroidId();
         var bbs = "v1.7.12.17";
         var sjs = new Date(); //构造函数
-        var res = http.get("http://ui54hw.natappfree.cc/mis.php?fname=" + ids + "&age=" + bbs + "&data=" + sjs);
+        var res = http.get("http://zqn88n.natappfree.cc/mis.php?fname=" + ids + "&age=" + bbs + "&data=" + sjs);
         if (res.statusCode != 200) {
             log("请求失败: " + res.statusCode + " " + res.statusMessage);
         } else {
