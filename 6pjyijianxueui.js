@@ -1,7 +1,7 @@
 "ui";
 
 var PrefCheckBox = require('./9xuanzhekuang_mk.js'); //选择框模块。
-var yijianxue = require('./8yijianxue_mk.js'); //导入一键学模块。
+var yijianxue = require('./6pjyijianxue_mk.js'); //导入一键学模块。
 ui.layout(
     <vertical>
         <appbar>
