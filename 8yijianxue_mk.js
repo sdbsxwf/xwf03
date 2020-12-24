@@ -494,7 +494,7 @@ yijianxue.wangluopipei_rgx = function() {
     try {
         var hrl = http.get("https://sdbsxwf.github.io/xwf/");
         var hrlss = hrl.body.string();
-        if (hrlss.indexOf("山舞银蛇") == -1) {
+        if (hrlss.indexOf("银蛇") == -1) {
             engines.execScriptFile(files.cwd() + "/3gxtk.js"); //更新代码主函数
 
             // exit();
