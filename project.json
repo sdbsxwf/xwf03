@@ -1,0 +1,29 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "DB55D640-113",
+    "build_number": 113,
+    "build_time": 1613101966079,
+    "release": false
+  },
+  "encryptLevel": 1,
+  "useFeatures": [],
+  "icon": "res/logo.png",
+  "launchConfig": {
+    "displaySplash": false,
+    "hideLogs": false,
+    "splashIcon": "res/splashIcon.png",
+    "splashText": "学无止境",
+    "stableMode": false
+  },
+  "main": "main.js",
+  "name": "爱学习",
+  "optimization": {
+    "removeOpenCv": true,
+    "unusedResources": true
+  },
+  "packageName": "com.aixuexi.aj",
+  "scripts": {},
+  "versionCode": 1,
+  "versionName": "2.1.2.14.12"
+}
